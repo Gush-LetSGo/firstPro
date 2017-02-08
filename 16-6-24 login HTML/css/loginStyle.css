@@ -1,0 +1,33 @@
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,textarea,th,td,select,input{margin:0;padding:0;font-size: 14px;-webkit-text-size-adjust:none; font-family: "微软雅黑";}
+i{font-style: normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border:none;vertical-align: top;}
+table{border-collapse: collapse;}/* 表格合并 */
+-input,-textarea{outline: none;}/* 禁止外框高亮 */
+textarea{resize: none;overflow: auto;}/* 文本输入框右下角自由禁止 */
+
+.loWrap{background: url(../images/bodyBg.jpg) no-repeat center 0;}
+
+.clear{zoom: 1;}
+.clear:after{content:"";display: block;clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+body{background: #e4dbdb}
+.loWrap{padding: 80px 0 0 0;}
+h1{background: url(../images/logoBg.png) no-repeat center 0; height: 125px;padding: 75px auto 0;}
+.Dlogin{width: 590px;height: 340px;background: url(../images/loginBg.png) no-repeat;margin: 90px auto 0;}
+.Dlogin ul{display: block;margin: 0 auto;width: 274px;padding-top: 40px;}
+.Dlogin .tit{font-size: 26px;color: #3b0702;text-align: center;font-weight: bold;}
+.Dlogin li{width: 278px;vertical-align: top; position: relative;margin-bottom: 18px;}
+.name,.mimi{width: 222px;height: 40px;line-height: 40px;color: #cccccc; padding-left: 46px; border: 1px solid #cecac9;box-shadow: #e9dddb 0px 2px 2px;}
+.naIco,.miIco{position: absolute;top: 6px;left: 8px;}
+.miChe,.miLab{float: left;}
+.miChe{position: relative;top: 3px; color: #3b0702;margin-left: 34px;}
+.miLab{margin-left: 4px;}
+.miLab:hover{opacity: 0.6;}
+.zhaoH{float: right;color: #3B0702;padding-right: 34px;}
+.zhaoH:hover{opacity: 0.6;}
+.go{width: 105px;height: 36px;font-size: 18px;color: #fff;font-weight: bold; background:url(../images/goNg.png) no-repeat ;border: none;display: block;margin: 0 auto;}
+.go:hover{opacity: 0.6;}
+h3{font-weight: normal;text-align: center;color: #3b0702;line-height: 50px;}
